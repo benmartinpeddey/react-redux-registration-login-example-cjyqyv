@@ -17,7 +17,7 @@ function login(username, password) {
           'Content-Type': 'application/json',
           'Accept': 'application/json'
         },
-        mode: 'no-cors',
+        mode: 'cors',
         body: JSON.stringify({ username, password })
     };
 
