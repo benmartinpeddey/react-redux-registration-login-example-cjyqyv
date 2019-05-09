@@ -16,7 +16,7 @@ function login(username, password) {
         headers: { 
           'Content-Type': 'application/json'
         },
-        mode: 'cors',
+        mode: 'no-cors',
         body: JSON.stringify({ username, password })
     };
 
