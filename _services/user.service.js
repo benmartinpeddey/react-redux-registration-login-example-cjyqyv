@@ -14,7 +14,8 @@ function login(username, password) {
     const requestOptions = {
         method: 'POST',
         headers: { 
-          'Content-Type': 'application/json'
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
         },
         mode: 'no-cors',
         body: JSON.stringify({ username, password })
